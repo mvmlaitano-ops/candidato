@@ -1,0 +1,254 @@
+[
+  {
+    "id": "lula-2022",
+    "nome": "Luiz Inácio Lula da Silva",
+    "partido": "PT",
+    "cargo": "Presidente da República",
+    "estado": "SP",
+    "patrimonio2022": {
+      "ano": 2022,
+      "total": 7417730,
+      "bens": [
+        { "descricao": "Apartamento em São Bernardo do Campo", "valor": 1200000, "categoria": "Imóveis" },
+        { "descricao": "Sítio em Atibaia (uso)", "valor": 800000, "categoria": "Imóveis" },
+        { "descricao": "Terreno em Garanhuns/PE", "valor": 150000, "categoria": "Imóveis" },
+        { "descricao": "CDB Banco do Brasil", "valor": 2500000, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro Direto Selic", "valor": 1200000, "categoria": "Renda Fixa" },
+        { "descricao": "Poupança Caixa", "valor": 567730, "categoria": "Renda Fixa" },
+        { "descricao": "Ações Petrobras", "valor": 350000, "categoria": "Renda Variável" },
+        { "descricao": "Fundo de Investimento Multimercado", "valor": 450000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em empresa de consultoria", "valor": 200000, "categoria": "Empresas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 2150000,
+        "Renda Fixa": 4267730,
+        "Renda Variável": 800000,
+        "Empresas": 200000,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    },
+    "patrimonio2026": {
+      "ano": 2026,
+      "total": 12850000,
+      "bens": [
+        { "descricao": "Apartamento em São Bernardo do Campo", "valor": 1600000, "categoria": "Imóveis" },
+        { "descricao": "Sítio em Atibaia (uso)", "valor": 1100000, "categoria": "Imóveis" },
+        { "descricao": "Terreno em Garanhuns/PE", "valor": 200000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento em Brasília", "valor": 2200000, "categoria": "Imóveis" },
+        { "descricao": "CDB Banco do Brasil", "valor": 3200000, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro Direto Selic", "valor": 1800000, "categoria": "Renda Fixa" },
+        { "descricao": "Poupança Caixa", "valor": 750000, "categoria": "Renda Fixa" },
+        { "descricao": "Ações Petrobras", "valor": 520000, "categoria": "Renda Variável" },
+        { "descricao": "Fundo de Investimento Multimercado", "valor": 680000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em empresa de consultoria", "valor": 500000, "categoria": "Empresas" },
+        { "descricao": "Bitcoin (via exchange)", "valor": 300000, "categoria": "Criptomoedas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 5100000,
+        "Renda Fixa": 5750000,
+        "Renda Variável": 1200000,
+        "Empresas": 500000,
+        "Criptomoedas": 300000,
+        "Outros": 0
+      }
+    }
+  },
+  {
+    "id": "bolsonaro-2022",
+    "nome": "Jair Messias Bolsonaro",
+    "partido": "PL",
+    "cargo": "Presidente da República",
+    "estado": "RJ",
+    "patrimonio2022": {
+      "ano": 2022,
+      "total": 2312534,
+      "bens": [
+        { "descricao": "Casa em Brasília", "valor": 800000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento no Rio de Janeiro", "valor": 450000, "categoria": "Imóveis" },
+        { "descricao": "Terreno em Resende/RJ", "valor": 120000, "categoria": "Imóveis" },
+        { "descricao": "Poupança Caixa Econômica", "valor": 342534, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro Direto IPCA+", "valor": 400000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo DI Banco do Brasil", "valor": 200000, "categoria": "Renda Variável" }
+      ],
+      "porCategoria": {
+        "Imóveis": 1370000,
+        "Renda Fixa": 742534,
+        "Renda Variável": 200000,
+        "Empresas": 0,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    },
+    "patrimonio2026": {
+      "ano": 2026,
+      "total": 5480000,
+      "bens": [
+        { "descricao": "Casa em Brasília", "valor": 1100000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento no Rio de Janeiro", "valor": 600000, "categoria": "Imóveis" },
+        { "descricao": "Terreno em Resende/RJ", "valor": 180000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Orlando, Flórida (EUA)", "valor": 1500000, "categoria": "Imóveis" },
+        { "descricao": "Poupança Caixa Econômica", "valor": 500000, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro Direto IPCA+", "valor": 600000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo DI Banco do Brasil", "valor": 350000, "categoria": "Renda Variável" },
+        { "descricao": "Empresa de comunicação digital", "valor": 450000, "categoria": "Empresas" },
+        { "descricao": "Bitcoin e Ethereum", "valor": 200000, "categoria": "Criptomoedas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 3380000,
+        "Renda Fixa": 1100000,
+        "Renda Variável": 350000,
+        "Empresas": 450000,
+        "Criptomoedas": 200000,
+        "Outros": 0
+      }
+    }
+  },
+  {
+    "id": "ciro-2022",
+    "nome": "Ciro Ferreira Gomes",
+    "partido": "PDT",
+    "cargo": "Deputado Federal",
+    "estado": "CE",
+    "patrimonio2022": {
+      "ano": 2022,
+      "total": 3956000,
+      "bens": [
+        { "descricao": "Apartamento em Fortaleza", "valor": 900000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Brasília", "valor": 750000, "categoria": "Imóveis" },
+        { "descricao": "Fazenda no Ceará", "valor": 600000, "categoria": "Imóveis" },
+        { "descricao": "CDB Bradesco", "valor": 800000, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro IPCA+ 2035", "valor": 450000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo de Ações Itaú", "valor": 256000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em escritório advocacia", "valor": 200000, "categoria": "Empresas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 2250000,
+        "Renda Fixa": 1250000,
+        "Renda Variável": 256000,
+        "Empresas": 200000,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    },
+    "patrimonio2026": {
+      "ano": 2026,
+      "total": 5230000,
+      "bens": [
+        { "descricao": "Apartamento em Fortaleza", "valor": 1200000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Brasília", "valor": 950000, "categoria": "Imóveis" },
+        { "descricao": "Fazenda no Ceará", "valor": 800000, "categoria": "Imóveis" },
+        { "descricao": "CDB Bradesco", "valor": 950000, "categoria": "Renda Fixa" },
+        { "descricao": "Tesouro IPCA+ 2035", "valor": 580000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo de Ações Itaú", "valor": 320000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em escritório advocacia", "valor": 350000, "categoria": "Empresas" },
+        { "descricao": "Ethereum", "valor": 80000, "categoria": "Criptomoedas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 2950000,
+        "Renda Fixa": 1530000,
+        "Renda Variável": 320000,
+        "Empresas": 350000,
+        "Criptomoedas": 80000,
+        "Outros": 0
+      }
+    }
+  },
+  {
+    "id": "simone-2022",
+    "nome": "Simone Nassar Tebet",
+    "partido": "MDB",
+    "cargo": "Senadora / Ministra",
+    "estado": "MS",
+    "patrimonio2022": {
+      "ano": 2022,
+      "total": 5238000,
+      "bens": [
+        { "descricao": "Fazenda em Mato Grosso do Sul", "valor": 1800000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento em Brasília", "valor": 900000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Campo Grande", "valor": 650000, "categoria": "Imóveis" },
+        { "descricao": "LCI Banco do Brasil", "valor": 600000, "categoria": "Renda Fixa" },
+        { "descricao": "CDB Itaú", "valor": 438000, "categoria": "Renda Fixa" },
+        { "descricao": "Ações diversas B3", "valor": 350000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em empresa agropecuária", "valor": 500000, "categoria": "Empresas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 3350000,
+        "Renda Fixa": 1038000,
+        "Renda Variável": 350000,
+        "Empresas": 500000,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    },
+    "patrimonio2026": {
+      "ano": 2026,
+      "total": 7920000,
+      "bens": [
+        { "descricao": "Fazenda em Mato Grosso do Sul", "valor": 2500000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento em Brasília", "valor": 1200000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Campo Grande", "valor": 850000, "categoria": "Imóveis" },
+        { "descricao": "LCI Banco do Brasil", "valor": 900000, "categoria": "Renda Fixa" },
+        { "descricao": "CDB Itaú", "valor": 620000, "categoria": "Renda Fixa" },
+        { "descricao": "Ações diversas B3", "valor": 500000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em empresa agropecuária", "valor": 1100000, "categoria": "Empresas" },
+        { "descricao": "Solana e Bitcoin", "valor": 250000, "categoria": "Criptomoedas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 4550000,
+        "Renda Fixa": 1520000,
+        "Renda Variável": 500000,
+        "Empresas": 1100000,
+        "Criptomoedas": 250000,
+        "Outros": 0
+      }
+    }
+  },
+  {
+    "id": "tarcisio-2022",
+    "nome": "Tarcísio Gomes de Freitas",
+    "partido": "Republicanos",
+    "cargo": "Governador de São Paulo",
+    "estado": "SP",
+    "patrimonio2022": {
+      "ano": 2022,
+      "total": 1876000,
+      "bens": [
+        { "descricao": "Apartamento em Brasília", "valor": 650000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento em São Paulo", "valor": 480000, "categoria": "Imóveis" },
+        { "descricao": "Tesouro Direto Selic", "valor": 350000, "categoria": "Renda Fixa" },
+        { "descricao": "Poupança", "valor": 196000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo Multimercado XP", "valor": 200000, "categoria": "Renda Variável" }
+      ],
+      "porCategoria": {
+        "Imóveis": 1130000,
+        "Renda Fixa": 546000,
+        "Renda Variável": 200000,
+        "Empresas": 0,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    },
+    "patrimonio2026": {
+      "ano": 2026,
+      "total": 4150000,
+      "bens": [
+        { "descricao": "Apartamento em Brasília", "valor": 850000, "categoria": "Imóveis" },
+        { "descricao": "Apartamento em São Paulo", "valor": 680000, "categoria": "Imóveis" },
+        { "descricao": "Casa em Alphaville", "valor": 1200000, "categoria": "Imóveis" },
+        { "descricao": "Tesouro Direto Selic", "valor": 500000, "categoria": "Renda Fixa" },
+        { "descricao": "Poupança", "valor": 270000, "categoria": "Renda Fixa" },
+        { "descricao": "Fundo Multimercado XP", "valor": 350000, "categoria": "Renda Variável" },
+        { "descricao": "Participação em construtora", "valor": 300000, "categoria": "Empresas" }
+      ],
+      "porCategoria": {
+        "Imóveis": 2730000,
+        "Renda Fixa": 770000,
+        "Renda Variável": 350000,
+        "Empresas": 300000,
+        "Criptomoedas": 0,
+        "Outros": 0
+      }
+    }
+  }
+]

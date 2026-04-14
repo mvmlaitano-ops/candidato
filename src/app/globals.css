@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-outfit);
+  --color-bg: #09090b;
+  --color-surface: #111113;
+  --color-surface-2: #18181b;
+  --color-border: #27272a;
+  --color-border-light: #3f3f46;
+  --color-accent: #00D4AA;
+  --color-accent-dim: rgba(0, 212, 170, 0.12);
+  --color-accent-muted: rgba(0, 212, 170, 0.5);
+  --color-up: #00D4AA;
+  --color-down: #ef4444;
+  --color-text-1: #fafafa;
+  --color-text-2: #a1a1aa;
+  --color-text-3: #52525b;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+/* Scrollbar */
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
+
+/* Tabular numbers */
+.mono { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+/* Ticker */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker 30s linear infinite;
+}
+
+/* Pulse dot */
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.live-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  animation: live-pulse 2s ease-in-out infinite;
+}
+
+/* Instrument card hover */
+.instrument {
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.instrument:hover {
+  background: var(--color-surface-2);
+  border-color: var(--color-border-light);
+}
+
+/* Glow line */
+.glow-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+  opacity: 0.3;
+}
+
+/* Stat change indicator */
+.change-up { color: var(--color-up); }
+.change-down { color: var(--color-down); }
