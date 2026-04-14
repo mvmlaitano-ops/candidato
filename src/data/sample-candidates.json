@@ -5,6 +5,7 @@
     "partido": "PT",
     "cargo": "Presidente da República",
     "estado": "SP",
+    "foto": "/candidatos/lula.jpg",
     "patrimonio2022": {
       "ano": 2022,
       "total": 7417730,
@@ -60,6 +61,7 @@
     "partido": "PL",
     "cargo": "Presidente da República",
     "estado": "RJ",
+    "foto": "/candidatos/bolsonaro.jpg",
     "patrimonio2022": {
       "ano": 2022,
       "total": 2312534,
@@ -110,6 +112,7 @@
     "partido": "PDT",
     "cargo": "Deputado Federal",
     "estado": "CE",
+    "foto": "/candidatos/ciro.jpg",
     "patrimonio2022": {
       "ano": 2022,
       "total": 3956000,
@@ -160,6 +163,7 @@
     "partido": "MDB",
     "cargo": "Senadora / Ministra",
     "estado": "MS",
+    "foto": "/candidatos/simone.jpg",
     "patrimonio2022": {
       "ano": 2022,
       "total": 5238000,
@@ -210,6 +214,7 @@
     "partido": "Republicanos",
     "cargo": "Governador de São Paulo",
     "estado": "SP",
+    "foto": "/candidatos/tarcisio.jpg",
     "patrimonio2022": {
       "ano": 2022,
       "total": 1876000,

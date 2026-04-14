@@ -3,6 +3,7 @@ import SearchBar from "./components/SearchBar";
 import AnimatedHome from "./components/AnimatedHome";
 import HeroVideo from "./components/HeroVideo";
 import WordRotator from "./components/WordRotator";
+import CandidatoAvatar from "./components/CandidatoAvatar";
 import { listarCandidatos } from "@/lib/tse";
 import { formatarMoeda, formatarPercentual } from "@/lib/constants";
 
@@ -90,11 +91,7 @@ export default function Home() {
                 className="instrument flex items-center gap-4 px-5 py-4 bg-surface"
               >
                 {/* Avatar */}
-                <div className="w-10 h-10 rounded-xl bg-accent/8 border border-accent/15 flex items-center justify-center shrink-0">
-                  <span className="text-xs font-bold text-accent">
-                    {c.nome.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                  </span>
-                </div>
+                <CandidatoAvatar nome={c.nome} foto={c.foto} size="sm" />
 
                 {/* Name */}
                 <div className="flex-1 min-w-0">

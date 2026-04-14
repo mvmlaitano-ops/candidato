@@ -3,12 +3,14 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
+import CandidatoAvatar from "./CandidatoAvatar";
 
 interface CandidatoResumo {
   id: string;
   nome: string;
   partido: string;
   cargo: string;
+  foto?: string;
 }
 
 export default function SearchBar() {
@@ -72,11 +74,7 @@ export default function SearchBar() {
                 onClick={() => selecionar(c.id)}
                 className="w-full text-left px-4 py-3 hover:bg-surface-2 transition-colors flex items-center gap-3 border-b border-border/50 last:border-b-0"
               >
-                <div className="w-8 h-8 rounded-lg bg-accent/8 border border-accent/15 flex items-center justify-center shrink-0">
-                  <span className="text-[10px] font-semibold text-accent">
-                    {c.nome.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                  </span>
-                </div>
+                <CandidatoAvatar nome={c.nome} foto={c.foto} size="sm" />
                 <div>
                   <span className="text-sm font-medium text-text-1">{c.nome}</span>
                   <span className="block text-[10px] text-text-3 mt-0.5">{c.partido} &middot; {c.cargo}</span>

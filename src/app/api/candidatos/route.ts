@@ -11,6 +11,7 @@ export async function GET(request: NextRequest) {
     partido: c.partido,
     cargo: c.cargo,
     estado: c.estado,
+    foto: c.foto,
     patrimonio2022: c.patrimonio2022.total,
     patrimonio2026: c.patrimonio2026.total,
   }));

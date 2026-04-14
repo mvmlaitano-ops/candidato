@@ -6,6 +6,7 @@ import PatrimonyCard from "@/app/components/PatrimonyCard";
 import ComparisonCards from "@/app/components/ComparisonCards";
 import CategoryChart from "@/app/components/CategoryChart";
 import EvolutionChart from "@/app/components/EvolutionChart";
+import CandidatoAvatar from "@/app/components/CandidatoAvatar";
 import AssetTable from "@/app/components/AssetTable";
 
 interface Props {
@@ -50,11 +51,7 @@ export default async function CandidatoPage({ params }: Props) {
 
         {/* Header */}
         <div className="flex items-start gap-4 mb-8">
-          <div className="w-12 h-12 rounded-xl bg-accent/8 border border-accent/15 flex items-center justify-center shrink-0">
-            <span className="text-sm font-bold text-accent">
-              {candidato.nome.split(" ").map(n => n[0]).slice(0, 2).join("")}
-            </span>
-          </div>
+          <CandidatoAvatar nome={candidato.nome} foto={candidato.foto} size="lg" />
           <div>
             <h1 className="text-xl sm:text-2xl font-extrabold text-text-1 tracking-tight">
               {candidato.nome}
