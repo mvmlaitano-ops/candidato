@@ -12,10 +12,10 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-5 h-12 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="w-7 h-7 rounded-md bg-accent/10 border border-accent/20 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-            <span className="text-accent font-bold text-[10px]">C</span>
+            <span className="text-accent font-bold text-[10px]">Ct</span>
           </div>
           <span className="text-sm font-semibold text-text-1 tracking-tight hidden sm:inline">
-            candidato
+            candidatto
           </span>
         </Link>
 

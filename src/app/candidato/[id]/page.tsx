@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props) {
   const c = buscarCandidatoPorId(id);
   if (!c) return { title: "Candidato não encontrado" };
   return {
-    title: `${c.nome} — Patrimônio | Candidato`,
+    title: `${c.nome} — Patrimônio | Candidatto`,
     description: `Evolução patrimonial de ${c.nome} (${c.partido}) entre 2022 e 2026.`,
   };
 }

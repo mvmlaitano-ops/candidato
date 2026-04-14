@@ -11,7 +11,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Candidato — Radiografia Patrimonial",
+  title: "Candidatto — Radiografia Patrimonial",
   description:
     "Acompanhe a evolução patrimonial dos políticos brasileiros entre 2022 e 2026. Dados do TSE traduzidos em linguagem acessível.",
 };
